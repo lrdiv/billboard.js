@@ -344,7 +344,7 @@ export default {
 		if (!isNumber(total)) {
 			const sum = mergeArray($$.data.targets.map(t => t.values))
 				.map(v => v.value)
-				.reduce((p, c) => p + c);
+				.reduce((p, c) => p + c, 0);
 
 			$$.cache.add(cacheKey, total = sum);
 		}
@@ -368,7 +368,7 @@ export default {
 
 		if (hiddenTargetIds.length) {
 			total = api.data.values.bind(api)(hiddenTargetIds)
-				.reduce((p, c) => p + c);
+				.reduce((p, c) => p + c, 0);
 		}
 
 		return total;
