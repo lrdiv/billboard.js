@@ -18,6 +18,7 @@
 		"build:production:analyzer": "cross-env ANALYZER=true npm run build:production",
 		"build:packaged:analyzer": "cross-env ANALYZER=true npm run build:packaged",
 		"build:plugin": "cross-env NODE_ENV=plugin webpack && cross-env NODE_ENV=plugin MIN=true webpack",
+		"install": "npm run build",
 		"release": "semantic-release",
 		"lint": "npm run lint:types && eslint src --ext .ts",
 		"lint:types": "dtslint --onlyTestTsNext types",
