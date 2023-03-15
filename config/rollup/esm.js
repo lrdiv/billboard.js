@@ -11,7 +11,7 @@ const {plugin, production} = require("../banner.js");
 const version = process.env.VERSION || pkg.version;
 
 function getBanner(isPlugin) {
-   
+
 	return `/*!
 * ${(production.replace(/(@version ).*$/, `$1${version}`) + (isPlugin ? plugin : "")).replace(/\r\n/gm, "\r\n * ")}
 */`;
@@ -49,7 +49,7 @@ export default [
     {
         input: "src/index.esm.ts",
         output: {
-            file: "dist/billboard.esm.js",
+            file: "dist/billboard.mjs",
             format: "es",
             banner: getBanner()
         },
