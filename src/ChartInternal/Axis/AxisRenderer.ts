@@ -3,7 +3,7 @@
  * billboard.js project is licensed under the MIT license
  * @ignore
  */
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import type {d3Selection} from "../../../types/types";
 import Helper from "./AxisRendererHelper";
 import {isArray, toArray, isFunction, isString, isNumber} from "../../module/util";

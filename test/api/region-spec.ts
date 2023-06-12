@@ -4,7 +4,7 @@
  */
 /* eslint-disable */
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import util from "../assets/util";
 import {$REGION} from "../../src/config/classes";
 

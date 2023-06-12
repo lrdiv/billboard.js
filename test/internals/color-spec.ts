@@ -7,7 +7,7 @@
 import {
 	select as d3Select,
 	namespaces as d3Namespaces
-} from "d3-selection";
+} from "d3-v7-selection";
 import {expect} from "chai";
 import util from "../assets/util";
 import {$ARC, $BAR, $COLOR, $COMMON, $EVENT, $LEGEND, $SHAPE, $TOOLTIP} from "../../src/config/classes";

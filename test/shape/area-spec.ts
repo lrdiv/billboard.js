@@ -5,7 +5,7 @@
 /* eslint-disable */
 /* global describe, beforeEach, it, expect */
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {$AREA, $AXIS, $CIRCLE, $COMMON, $LINE} from "../../src/config/classes";
 import util from "../assets/util";
 

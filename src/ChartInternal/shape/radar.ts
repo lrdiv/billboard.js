@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {KEY} from "../../module/Cache";
 import {$AXIS, $COMMON, $LEVEL, $RADAR, $SHAPE, $TEXT} from "../../config/classes";
 import {getMinMax, getRange, isDefined, isEmpty, isNumber, isUndefined, setTextValue, toArray} from "../../module/util";

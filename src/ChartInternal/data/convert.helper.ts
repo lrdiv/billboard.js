@@ -9,7 +9,7 @@ import {
 	tsvParse as d3TsvParse,
 	csvParseRows as d3CsvParseRows,
 	tsvParseRows as d3TsvParseRows,
-} from "d3-dsv";
+} from "d3-v7-dsv";
 
 export {columns, json, jsonTreemap, rows, url, csv, tsv};
 

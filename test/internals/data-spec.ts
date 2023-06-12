@@ -5,7 +5,7 @@
 /* eslint-disable */
 /* global describe, beforeEach, it, expect */
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import sinon from "sinon";
 import util from "../assets/util";
 import {$ARC, $AREA, $AXIS, $BAR, $CIRCLE, $COMMON, $LINE, $SHAPE, $TEXT} from "../../src/config/classes";

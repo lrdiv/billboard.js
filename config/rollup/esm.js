@@ -36,7 +36,7 @@ const plugins = [
     })
 ];
 
-const external = id => /^d3-/.test(id);
+const external = id => /^d3-v7-/.test(id);
 
 const bbPlugins = readdirSync(resolvePath("../src/Plugin/"), {
         withFileTypes: true

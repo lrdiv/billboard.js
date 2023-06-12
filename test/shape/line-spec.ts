@@ -5,11 +5,11 @@
 /* eslint-disable */
 /* global describe, beforeEach, it, expect */
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {
 	curveStepAfter as d3CurveStepAfter,
 	curveStepBefore as d3CurveStepBefore
-} from "d3-shape";
+} from "d3-v7-shape";
 import {$AXIS, $COMMON, $LINE, $SELECT} from "../../src/config/classes";
 import util from "../assets/util";
 

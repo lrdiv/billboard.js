@@ -2,8 +2,8 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
-import {scaleOrdinal as d3ScaleOrdinal} from "d3-scale";
+import {select as d3Select} from "d3-v7-selection";
+import {scaleOrdinal as d3ScaleOrdinal} from "d3-v7-scale";
 import {document} from "../../module/browser";
 import {$ARC, $COLOR, $SHAPE} from "../../config/classes";
 import {KEY} from "../../module/Cache";

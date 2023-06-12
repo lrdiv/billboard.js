@@ -2,9 +2,9 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {axisRight as d3AxisRight} from "d3-axis";
-import {format as d3Format} from "d3-format";
-import {scaleSequential as d3ScaleSequential, scaleSymlog as d3ScaleSymlog} from "d3-scale";
+import {axisRight as d3AxisRight} from "d3-v7-axis";
+import {format as d3Format} from "d3-v7-format";
+import {scaleSequential as d3ScaleSequential, scaleSymlog as d3ScaleSymlog} from "d3-v7-scale";
 import CLASS from "./classes";
 import {isFunction, getRange} from "./util";
 

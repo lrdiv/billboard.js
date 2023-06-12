@@ -8,7 +8,7 @@ import {
 	scaleLinear as d3ScaleLinear,
 	scaleLog as d3ScaleLog,
 	scaleSymlog as d3ScaleSymlog
-} from "d3-scale";
+} from "d3-v7-scale";
 import {isString, isValue, parseDate} from "../../module/util";
 import type {IDataRow, IGridData} from "../data/IData";
 

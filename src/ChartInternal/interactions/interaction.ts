@@ -2,8 +2,8 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
-import {drag as d3Drag} from "d3-drag";
+import {select as d3Select} from "d3-v7-selection";
+import {drag as d3Drag} from "d3-v7-drag";
 import {$ARC, $AXIS, $COMMON, $SHAPE, $TREEMAP} from "../../config/classes";
 import {KEY} from "../../module/Cache";
 import {emulateEvent, getPointer, isNumber, isObject} from "../../module/util";

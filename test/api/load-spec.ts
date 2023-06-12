@@ -4,8 +4,8 @@
  */
 /* eslint-disable */
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
-import {format as d3Format} from "d3-format";
+import {select as d3Select} from "d3-v7-selection";
+import {format as d3Format} from "d3-v7-format";
 import {$AREA, $AXIS, $COMMON, $CIRCLE, $LEGEND, $LINE} from "../../src/config/classes";
 import util from "../assets/util";
 

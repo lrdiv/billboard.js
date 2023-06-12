@@ -5,7 +5,7 @@
 import {
 	namespaces as d3Namespaces,
 	select as d3Select
-} from "d3-selection";
+} from "d3-v7-selection";
 import type {d3Selection} from "../../../types/types";
 import {$CIRCLE, $COMMON, $SELECT} from "../../config/classes";
 import {document} from "../../module/browser";

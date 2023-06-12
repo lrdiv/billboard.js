@@ -5,7 +5,7 @@
 import {
 	select as d3Select,
 	selectAll as d3SelectAll
-} from "d3-selection";
+} from "d3-v7-selection";
 import {KEY} from "../../module/Cache";
 import {$COMMON, $TEXT} from "../../config/classes";
 import {capitalize, getBoundingRect, getRandom, isFunction, isNumber, isObject, isString, getTranslation, setTextValue} from "../../module/util";

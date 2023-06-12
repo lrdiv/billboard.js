@@ -2,12 +2,12 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {
 	arc as d3Arc,
 	pie as d3Pie
-} from "d3-shape";
-import {interpolate as d3Interpolate} from "d3-interpolate";
+} from "d3-v7-shape";
+import {interpolate as d3Interpolate} from "d3-v7-interpolate";
 import {document} from "../../module/browser";
 import {$ARC, $COMMON, $FOCUS, $GAUGE} from "../../config/classes";
 import {callFn, endall, isFunction, isNumber, isObject, isUndefined, setTextValue} from "../../module/util";

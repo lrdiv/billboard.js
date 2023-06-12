@@ -5,7 +5,7 @@
 import {
 	select as d3Select,
 	namespaces as d3Namespaces
-} from "d3-selection";
+} from "d3-v7-selection";
 import {document} from "../../module/browser";
 import {$FOCUS, $GAUGE, $LEGEND} from "../../config/classes";
 import {KEY} from "../../module/Cache";

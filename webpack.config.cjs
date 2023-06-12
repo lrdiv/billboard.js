@@ -24,7 +24,7 @@ const config = {
 	},
 	externals: ({context, request}, callback) => {
 		// every 'd3-*' import, will be externally required as their name except root as 'd3'
-		if (/^d3-/.test(request)) {
+		if (/^d3-v7-/.test(request)) {
 			return callback(null, {
 				commonjs: request,
 				commonjs2: request,

@@ -3,11 +3,11 @@
  * billboard.js project is licensed under the MIT license
  */
 import type {d3Selection} from "billboard.js/types/types";
-import {Delaunay as d3Delaunay} from "d3-delaunay";
+import {Delaunay as d3Delaunay} from "d3-v7-delaunay";
 import {
 	polygonCentroid as d3PolygonCentroid,
 	polygonArea as d3PolygonArea
-} from "d3-polygon";
+} from "d3-v7-polygon";
 import {loadConfig} from "../../config/config";
 import Plugin from "../Plugin";
 import Options from "./Options";

@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import type {d3Selection} from "../../../types/types";
 import {$BAR, $CIRCLE, $COMMON, $DRAG, $SELECT, $SHAPE} from "../../config/classes";
 import {getPathBox} from "../../module/util";

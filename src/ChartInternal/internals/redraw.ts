@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {transition as d3Transition} from "d3-transition";
+import {transition as d3Transition} from "d3-v7-transition";
 import {$COMMON, $SELECT, $TEXT} from "../../config/classes";
 import {generateWait} from "../../module/generator";
 import {callFn, capitalize, getOption, isTabVisible, notEmpty} from "../../module/util";

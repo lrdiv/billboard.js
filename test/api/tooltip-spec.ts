@@ -4,7 +4,7 @@
  */
 /* eslint-disable */
 import {expect} from "chai";
-import {timeFormat as d3TimeFormat} from "d3-time-format";
+import {timeFormat as d3TimeFormat} from "d3-v7-time-format";
 import util from "../assets/util";
 import {$TOOLTIP} from "../../src/config/classes";
 import sinon from "sinon";

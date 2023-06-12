@@ -5,7 +5,7 @@
 /* eslint-disable */
 /* global describe, beforeEach, it, expect */
 import {expect} from "chai";
-import {zoomTransform as d3ZoomTransform} from "d3-zoom";
+import {zoomTransform as d3ZoomTransform} from "d3-v7-zoom";
 import sinon from "sinon";
 import {$AXIS, $EVENT, $GRID, $REGION, $ZOOM} from "../../src/config/classes";
 import util from "../assets/util";

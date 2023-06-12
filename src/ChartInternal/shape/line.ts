@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {line as d3Line} from "d3-shape";
+import {line as d3Line} from "d3-v7-shape";
 import {getScale} from "../internals/scale";
 import {$COMMON, $LINE} from "../../config/classes";
 import {getPointer, getRandom, isArray, isDefined, isUndefined, isValue, parseDate} from "../../module/util";

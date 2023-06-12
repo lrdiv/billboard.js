@@ -5,7 +5,7 @@
 import {
 	select as d3Select,
 	selectAll as d3SelectAll
-} from "d3-selection";
+} from "d3-v7-selection";
 import {$AXIS, $COMMON, $FOCUS, $GRID} from "../../config/classes";
 import {isArray, isValue} from "../../module/util";
 

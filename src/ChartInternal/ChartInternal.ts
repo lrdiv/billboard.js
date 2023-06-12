@@ -8,8 +8,8 @@ import {
 	timeFormat as d3TimeFormat,
 	utcParse as d3UtcParse,
 	utcFormat as d3UtcFormat
-} from "d3-time-format";
-import {select as d3Select} from "d3-selection";
+} from "d3-v7-time-format";
+import {select as d3Select} from "d3-v7-selection";
 import type {d3Selection} from "../../types/types";
 import {checkModuleImport} from "../module/error";
 import {$COMMON, $CIRCLE, $TEXT} from "../config/classes";

@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {zoomIdentity as d3ZoomIdentity, zoomTransform as d3ZoomTransform} from "d3-zoom";
+import {zoomIdentity as d3ZoomIdentity, zoomTransform as d3ZoomTransform} from "d3-v7-zoom";
 import {extend, getMinMax, isDefined, isObject, parseDate} from "../../module/util";
 
 /**

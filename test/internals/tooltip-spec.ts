@@ -9,7 +9,7 @@ import sinon from "sinon";
 import {
 	select as d3Select,
 	namespaces as d3Namespaces
-} from "d3-selection";
+} from "d3-v7-selection";
 import util from "../assets/util";
 import {$SHAPE, $TOOLTIP} from "../../src/config/classes";
 

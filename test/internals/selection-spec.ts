@@ -9,7 +9,7 @@ import {expect} from "chai";
 import {
 	select as d3Select,
 	selectAll as d3SelectAll
-} from "d3-selection";
+} from "d3-v7-selection";
 import util from "../assets/util";
 import {$SHAPE, $SELECT} from "../../src/config/classes";
 

@@ -3,8 +3,8 @@
  * billboard.js project is licensed under the MIT license
  * @ignore
  */
-import {pointer as d3Pointer} from "d3-selection";
-import {brushSelection as d3BrushSelection} from "d3-brush";
+import {pointer as d3Pointer} from "d3-v7-selection";
+import {brushSelection as d3BrushSelection} from "d3-v7-brush";
 import type {d3Selection} from "../../types/types";
 import {document, window, requestAnimationFrame} from "./browser";
 

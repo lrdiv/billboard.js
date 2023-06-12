@@ -7,7 +7,7 @@
 /* global describe, beforeEach, it, expect */
 import {expect} from "chai";
 import sinon from "sinon";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import util from "../assets/util";
 import {$ARC, $AXIS, $BAR, $CIRCLE, $COMMON, $FOCUS, $EVENT, $SELECT, $SHAPE} from "../../src/config/classes";
 

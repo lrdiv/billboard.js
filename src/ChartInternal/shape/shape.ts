@@ -21,8 +21,8 @@ import {
 	curveMonotoneY as d3CurveMonotoneY,
 	curveNatural as d3CurveNatural,
 	curveStep as d3CurveStep
-} from "d3-shape";
-import {select as d3Select} from "d3-selection";
+} from "d3-v7-shape";
+import {select as d3Select} from "d3-v7-selection";
 import type {d3Selection} from "../../../types/types";
 import CLASS from "../../config/classes";
 import {capitalize, getPointer, getRectSegList, getUnique, isObjectType, isNumber, isValue, isUndefined, notEmpty} from "../../module/util";

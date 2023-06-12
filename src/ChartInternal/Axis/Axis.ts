@@ -7,7 +7,7 @@ import {
 	axisBottom as d3AxisBottom,
 	axisLeft as d3AxisLeft,
 	axisRight as d3AxisRight
-} from "d3-axis";
+} from "d3-v7-axis";
 import AxisRenderer from "./AxisRenderer";
 import {getScale} from "../internals/scale";
 import {$AXIS} from "../../config/classes";

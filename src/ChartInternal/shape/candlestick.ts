@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {$CANDLESTICK, $COMMON} from "../../config/classes";
 import {getRandom, isArray, isNumber, isObject} from "../../module/util";
 import type {IOffset} from "./shape";

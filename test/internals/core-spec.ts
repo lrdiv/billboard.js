@@ -5,7 +5,7 @@
 /* eslint-disable */
 import {expect} from "chai";
 import sinon from "sinon";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import util from "../assets/util";
 import {$AXIS, $COMMON, $GRID} from "../../src/config/classes";
 import {window, document} from "../../src/module/browser";

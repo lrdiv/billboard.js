@@ -3,9 +3,9 @@
  * billboard.js project is licensed under the MIT license
  */
 // @ts-nocheck
-import {interpolateHslLong as d3InterpolateHslLong} from "d3-interpolate";
-import {hsl as d3Hsl} from "d3-color";
-import {scaleSequentialLog as d3ScaleSequentialLog} from "d3-scale";
+import {interpolateHslLong as d3InterpolateHslLong} from "d3-v7-interpolate";
+import {hsl as d3Hsl} from "d3-v7-color";
+import {scaleSequentialLog as d3ScaleSequentialLog} from "d3-v7-scale";
 import {$TOOLTIP} from "../../config/classes";
 import {loadConfig} from "../../config/config";
 import Plugin from "../Plugin";

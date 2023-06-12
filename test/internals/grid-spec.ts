@@ -4,7 +4,7 @@
  */
 /* eslint-disable */
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {$AXIS, $COMMON, $EVENT, $FOCUS, $GRID} from "../../src/config/classes";
 import util from "../assets/util";
 

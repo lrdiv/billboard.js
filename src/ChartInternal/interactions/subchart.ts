@@ -2,12 +2,12 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {select as d3Select} from "d3-selection";
+import {select as d3Select} from "d3-v7-selection";
 import {
 	brushX as d3BrushX,
 	brushY as d3BrushY,
 	brushSelection as d3BrushSelection
-} from "d3-brush";
+} from "d3-v7-brush";
 import CLASS from "../../config/classes";
 import {brushEmpty, capitalize, isArray, isFunction, parseDate} from "../../module/util";
 

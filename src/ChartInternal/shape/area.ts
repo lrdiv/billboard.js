@@ -2,8 +2,8 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {area as d3Area} from "d3-shape";
-import {select as d3Select} from "d3-selection";
+import {area as d3Area} from "d3-v7-shape";
+import {select as d3Select} from "d3-v7-selection";
 import {$AREA, $CIRCLE, $LINE} from "../../config/classes";
 import {getRandom} from "../../module/util";
 import type {IData, IDataRow} from "../data/IData";

@@ -6,7 +6,7 @@
 /* global describe, beforeEach, it, expect */
 import {expect} from "chai";
 import sinon from "sinon";
-import {timeParse as d3TimeParse} from "d3-time-format";
+import {timeParse as d3TimeParse} from "d3-v7-time-format";
 import {window} from "../../src/module/browser";
 import {toArray, getBoundingRect, getCssRules, getPathBox, getPointer, getUnique, isArray, isNumber, sortValue, parseDate} from "../../src/module/util";
 

@@ -11,8 +11,8 @@ import {
 	treemapSliceDice as d3TreemapSliceDice,
 	treemapSquarify as d3TreemapSquarify,
 	treemapResquarify as d3TreemapResquarify
-} from "d3-hierarchy";
-import {select as d3Select} from "d3-selection";
+} from "d3-v7-hierarchy";
+import {select as d3Select} from "d3-v7-selection";
 import type {d3Selection} from "../../../types/types";
 import {$COMMON, $TREEMAP} from "../../config/classes";
 import {isFunction, getRandom} from "../../module/util";

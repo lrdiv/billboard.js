@@ -2,7 +2,7 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {easeLinear as d3EaseLinear} from "d3-ease";
+import {easeLinear as d3EaseLinear} from "d3-v7-ease";
 import {generateWait} from "../../module/generator";
 import {diffDomain} from "../../module/util";
 import CLASS from "../../config/classes";

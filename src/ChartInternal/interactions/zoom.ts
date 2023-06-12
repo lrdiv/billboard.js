@@ -2,8 +2,8 @@
  * Copyright (c) 2017 ~ present NAVER Corp.
  * billboard.js project is licensed under the MIT license
  */
-import {drag as d3Drag} from "d3-drag";
-import {zoomIdentity as d3ZoomIdentity, zoom as d3Zoom, ZoomTransform as d3ZoomTransform} from "d3-zoom";
+import {drag as d3Drag} from "d3-v7-drag";
+import {zoomIdentity as d3ZoomIdentity, zoom as d3Zoom, ZoomTransform as d3ZoomTransform} from "d3-v7-zoom";
 import {$COMMON, $ZOOM} from "../../config/classes";
 import {callFn, diffDomain, getPointer, isFunction} from "../../module/util";
 

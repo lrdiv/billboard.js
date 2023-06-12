@@ -5,8 +5,8 @@
 /* eslint-disable */
 // @ts-nocheck
 import {expect} from "chai";
-import {select as d3Select} from "d3-selection";
-import {format as d3Format} from "d3-format";
+import {select as d3Select} from "d3-v7-selection";
+import {format as d3Format} from "d3-v7-format";
 import {timeMinute as d3TimeMinute} from "d3-time";
 import util from "../assets/util";
 import {getBoundingRect} from "../../src/module/util";
